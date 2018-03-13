@@ -2,10 +2,8 @@
   "name": "nodereactionagent",
   "version": "0.0.1",
   "description": "NodeReaction Agent is a Node performance monitoring tool.",
-  "main": "server.js",
-  "scripts": {
-    "start": "nodemon server/server.js"
-  },
+  "main": "NodeReaction.js",
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/retrowavelabs/nodereactionnpm.git"
@@ -33,6 +31,7 @@
     "url": "https://github.com/retrowavelabs/nodereactionnpm/issues"
   },
   "dependencies": {
+    "node-fetch": "^2.1.1",
     "uuid": "^3.2.1"
   },
   "devDependencies": {
